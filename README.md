@@ -17,7 +17,6 @@ The `archive`, `restore`, and `archived?` methods should work based on the `arch
 1. Add `archive` method to set `archived_at` to the current time.
 2. Add `restore` method to set `archived_at` to `nil`.
 3. Add `archived?` method to check if `archived_at` is set.
-
 ### Step Three - Add Archiver to Simple Blog
 
 We will use this repo to test functionality:
